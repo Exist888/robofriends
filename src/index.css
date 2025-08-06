@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-image: linear-gradient(to right, #259eb6, #21a19f);
+}
+
+.h1 {
+  font-family: "Orbitron", sans-serif;
+  color: #fafafa;
+  letter-spacing: 1px;
+  font-size: 3rem;
+  margin-bottom: 4rem;
+}
+
+.scrollable-component {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  background-image: linear-gradient(to right, #259eb6, #21a19f);
+}
+
+.card-list-section {
+  padding-top: 12rem;
+}
